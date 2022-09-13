@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{F57063BF-B56B-4FA1-BBE7-C7F6CA5FD498}"
 	ProjectSection(SolutionItems) = preProject
 		Post.cs = Post.cs
+		EyeColor.cs = EyeColor.cs
+		User.cs = User.cs
+		UserClass.cs = UserClass.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8405ADEE-0CF7-404C-A78A-4F8EABAE42A7}"
@@ -19,6 +22,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operators", "Operators", "{6FAAB1F2-45D6-486D-B1F9-BDE8247E4C0E}"
 	ProjectSection(SolutionItems) = preProject
 		Arithmetic.cs = Arithmetic.cs
+		User.cs = User.cs
 	EndProjectSection
 EndProject
 Global

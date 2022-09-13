@@ -16,11 +16,6 @@ public class Arithmetic {
     return (firstNumber * secondNumber);
 }
 
-    public int ExponentAnswer(int firstNumber, int secondNumber)
-    {
-        return (firstNumber ** secondNumber);
-    }
-
     public int ModulusAnswer(int firstNumber, int secondNumber)
 {
         return (firstNumber % secondNumber);

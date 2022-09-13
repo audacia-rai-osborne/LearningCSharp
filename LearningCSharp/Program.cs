@@ -11,9 +11,16 @@ Comparison compare = new Comparison();
 
 Boolean boo = new Boolean();
 
+
+//static void Main(string[] args) {
+//    User Rai = new User(1, "Rai", "Osborne", "RaiO", "07/02/01", 167);
+
+//    Console.WriteLine(Rai.firstName, Rai.lastName, Rai.username, Rai.birthDay);
+//}
+
 //string firstVariable = "hello";
 //int secondVariable = 7;
-decimal thirdVariable = 0.5;
+// var thirdVariable = 7.5m;
 //bool fourthVariable = false;
 //char fifthVariable = 'b';
 
@@ -29,17 +36,16 @@ decimal thirdVariable = 0.5;
 //const bool ninthVariable = false;
 //const char tenthVariable = 'b';
 
-const int numberOne = 1;
-const int numberTwo = 2;
-const int numberThree = 3;
-const int numberFour = 4;
-const int numberFive = 5;
+//const int numberOne = 1;
+//const int numberTwo = 2;
+//const int numberThree = 3;
+//const int numberFour = 4;
+//const int numberFive = 5;
 
 
 //Console.WriteLine(maths.AddAnswer(numberOne, numberTwo));
 //Console.WriteLine(maths.SubtractAnswer(numberTwo, numberOne));
 //Console.WriteLine(maths.MultiplyAnswer(numberFive, numberTwo));
-Console.WriteLine(maths.ExponentAnswer(numberFive, numberTwo)); 
 //Console.WriteLine(maths.ModulusAnswer(numberFive, numberTwo));
 //Console.WriteLine(maths.DivideAnswer(numberFour, numberTwo));
 //Console.WriteLine(maths.IncrementAnswer(numberThree));
