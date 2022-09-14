@@ -45,6 +45,13 @@ public class Arithmetic {
 
     }
 
+public void AdditionArray(int[] num1, int[] num2)
+    {
+        var num3 = num1[3] + num2[3];
+        Console.WriteLine(num3);
+    }
+
+
     //public string PerfectSquare(int firstNumber)
     //{
     //    var squared = Math.Sqrt(firstNumber);

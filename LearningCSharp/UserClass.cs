@@ -1,15 +1,43 @@
 ﻿using System;
 
-public class User
+public class User : iUser
 {
     //field
-    public int id;
-    public string firstName;
-    public string lastName;
-    public string username;
-    public enum EyeColor;
-    public string birthDay;
-    public int height;
+    public int id
+    {
+        get;
+        set;
+    }
+    public string firstName
+    {
+        get;
+        set;
+    }
+    public string lastName
+    {
+        get;
+        set;
+    }
+    public string username
+    {
+        get;
+        set;
+    }
+    public int eyeColor
+    {
+        get;
+        set;
+}
+public string birthDay
+    {
+        get;
+        set;
+    }
+    public int height
+    {
+        get;
+        set;
+    }
 
     public User(int idNumber, string firstNameString, string lastNameString, string usernameString, string birthDayString, int heightNumber)
     {
@@ -17,18 +45,17 @@ public class User
         firstName = firstNameString;
         lastName = lastNameString;
         username = usernameString;
-        // eyeColor = "Hazel";
+        // eyeColor = eyeColorEnum;
         birthDay = birthDayString;
         height = heightNumber;
 
     }
 
-    static void Main(string[] args)
-    {
-        User Rai = new User(1, "Rai", "Osborne", "RaiO", "07/02/01", 167);
 
-        Console.WriteLine(Rai.firstName, Rai.lastName, Rai.username, Rai.birthDay);
-    }
+        public string createString(){
+            return this.id + " " + this.firstName + " " + this.lastName + " " + this.username + " " + this.birthDay + " " + this.eyeColor + " " + this.height;
+        }
+    
 
 
 }

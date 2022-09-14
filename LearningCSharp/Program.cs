@@ -11,6 +11,27 @@ Comparison compare = new Comparison();
 
 Boolean boo = new Boolean();
 
+var user = new User(1, "Rai", "Osborne", "RaiO", "07/02/01", 156);
+
+Fibonacci fibonacci = new Fibonacci();  
+
+// Console.WriteLine(user.firstName + user.lastName + user.username + user.birthDay);
+
+Console.WriteLine(user.createString());
+
+int[] startFib = {0, 1};
+List<int> fibList = new List<int>(startFib);
+
+fibonacci.FibonacciSequence(fibList);
+
+PerfectSquare perfectSquare = new PerfectSquare();
+
+perfectSquare.perfectSquare(25);
+
+var testArrayOne = new[] { 1, 2, 3, 4, 5 };
+var testArrayTwo = new[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+maths.AdditionArray(testArrayOne, testArrayTwo);
 
 //static void Main(string[] args) {
 //    User Rai = new User(1, "Rai", "Osborne", "RaiO", "07/02/01", 167);
